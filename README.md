@@ -1,16 +1,21 @@
-# simple_expense_tracker_app
+# Simple Flutter Expense Tracker
 
-A new Flutter project.
+This is a simple Flutter expense tracker app that helps users manage their finances by tracking both expenses and income. The app integrates with Google Sheets for storing and retrieving financial data using the _`gsheets`_ package. It also uses the _`intl`_ package for formatting dates and currencies.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Add Expenses and Income**: Users can add new expenses and income entries with details such as amount.
+- **Transaction List**: Displays a list of all recorded transactions (expenses and income).
+- **Google Sheets Integration**: Uses _`gsheets`_ to store and retrieve expense data from a Google Sheets document.
+- **Formatted Dates and Currencies**: Utilizes _`intl`_ for proper date and currency formatting.
+- **Financial Summary**: Provides a summary of total expenses, total income, and net balance.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Learning Objectives
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Integrating Google Sheets with a Flutter application using the _`gsheets`_ package.
+- Adding and managing financial data, including both expenses and income.
+- Formatting dates and currencies with the _`intl package`_.
+- Building a responsive and interactive UI in Flutter.
+- Providing financial summaries to give users insights into their spending and income.
